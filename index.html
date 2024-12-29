@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design Mastery | Falcon</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">
+            <img src="assets/logo-white.png" alt="logo" class="logo-white" />
+            <img src="assets/logo-dark.png" alt="logo" class="logo-dark" />
+          </a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#cart">Food Cart</a></li>
+      </ul>
+      <div class="nav__btns">
+        <button class="btn"><i class="ri-search-line"></i></button>
+        <button class="btn"><i class="ri-shopping-bag-line"></i></button>
+      </div>
+    </nav>
+
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <div class="image">
+          <img src="assets/header.png" alt="header" />
+        </div>
+        <div class="header__image__footer">
+          <img src="assets/user-1.jpg" alt="user" />
+          <p>It delivers convenience and flavor with lightning-fast delivery</p>
+        </div>
+      </div>
+      <div class="header__content">
+        <div class="header__top">
+          <span><img src="assets/header.png" alt="header" /></span>
+          <h2>Eat Healthy, Stay Healthy</h2>
+        </div>
+        <h1>Be The <span>First</span> Delivery & Easy Pick Up</h1>
+        <p>
+          Be the first to experience hassle-free delivery and easy pick-up
+          options designed to save your time and satisfy your cravings!
+        </p>
+        <div class="header__btns">
+          <button class="btn">
+            Order Now
+            <span><i class="ri-arrow-right-line"></i></span>
+          </button>
+          <button class="btn">Book A Table</button>
+        </div>
+        <div class="header__flex">
+          <div class="header__card">
+            <img src="assets/header_content-1.jpg" alt="header__content" />
+            <h4>Chicken Biryani</h4>
+          </div>
+          <div class="header__card">
+            <img src="assets/header_content-2.jpg" alt="header__content" />
+            <h4>Handi Mutton</h4>
+          </div>
+          <div class="header__card">
+            <img src="assets/header_content-1.jpg" alt="header__content" />
+            <h4>Kala Bhuna</h4>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container menu__container" id="menu">
+      <h2 class="section__header">Our Popular <span>Dishes</span></h2>
+      <div class="menu__grid">
+        <div class="menu__card">
+          <img src="assets/menu-1.jpg" alt="menu" />
+          <h4>Kala Bhuna</h4>
+          <p>
+            A rich and flavorful slow-cooked beef dish, infused with aromatic
+            spices for a traditional taste.
+          </p>
+          <div class="menu__card__footer">
+            <h3>$50.99</h3>
+            <button class="btn">Add To Cart</button>
+          </div>
+        </div>
+        <div class="menu__card">
+          <img src="assets/menu-2.jpg" alt="menu" />
+          <h4>Handi Mutton</h4>
+          <p>
+            Tender mutton simmered to perfection in pot with blend of spices for
+            an authentic and hearty meal.
+          </p>
+          <div class="menu__card__footer">
+            <h3>$75.49</h3>
+            <button class="btn">Add To Cart</button>
+          </div>
+        </div>
+        <div class="menu__card">
+          <img src="assets/menu-3.jpg" alt="menu" />
+          <h4>Egg Curry</h4>
+          <p>
+            A classic dish featuring boiled eggs in a spiced tomato and onion
+            gravy, perfect with rice or bread.
+          </p>
+          <div class="menu__card__footer">
+            <h3>$30.99</h3>
+            <button class="btn">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="menu__btn">
+        <button class="btn">
+          See All Dishes
+          <span><i class="ri-arrow-right-line"></i></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="service" id="service">
+      <div class="section__container service__container">
+        <h2 class="section__header">How Does It <span>Works</span></h2>
+        <div class="service__grid">
+          <div class="service__card">
+            <div>
+              <img src="assets/service-1.png" alt="service" />
+            </div>
+            <h4>Chose Your Meals</h4>
+            <p>
+              Browse through our delicious menu filled with a variety of dishes
+              and select your favorites effortlessly to satisfy your cravings.
+            </p>
+            <a href="#">
+              Read More
+              <span><i class="ri-arrow-right-line"></i></span>
+            </a>
+          </div>
+          <div class="service__card">
+            <div>
+              <img src="assets/service-2.png" alt="service" />
+            </div>
+            <h4>Track Your Order</h4>
+            <p>
+              Keep an eye on your meal with real-time updates from the kitchen
+              to your location, ensuring a seamless and transparent experience.
+            </p>
+            <a href="#">
+              Read More
+              <span><i class="ri-arrow-right-line"></i></span>
+            </a>
+          </div>
+          <div class="service__card">
+            <div>
+              <img src="assets/service-3.png" alt="service" />
+            </div>
+            <h4>Chose Your Meals</h4>
+            <p>
+              Experience ultimate convenience with easy pick-up options or
+              doorstep delivery, bringing your favorite meals straight to you.
+            </p>
+            <a href="#">
+              Read More
+              <span><i class="ri-arrow-right-line"></i></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner" id="cart">
+      <div class="section__container banner__container">
+        <div class="banner__image">
+          <img src="assets/banner.jpg" alt="banner" />
+        </div>
+        <div class="banner__content">
+          <h2 class="section__header">
+            Eat Healthy, Stay <span>Healthy</span>
+          </h2>
+          <p>
+            At Food Plaza, we believe that good food is the foundation of a
+            healthy life. Our meals are crafted with fresh ingredients and
+            balanced nutrition, helping you maintain a healthy lifestyle while
+            enjoying delicious flavors.
+          </p>
+          <div class="banner__btn">
+            <button class="btn">
+              Read More
+              <span><i class="ri-arrow-right-line"></i></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container customer__container">
+      <div class="customer__image">
+        <img src="assets/customer.png" alt="customer" />
+      </div>
+      <div class="customer__content">
+        <h2 class="section__header">Customers <span>Reaction</span></h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="customer__card">
+                <div class="customer__card__header">
+                  <div>Verified Purchase</div>
+                  <span>23 Oct 2024</span>
+                </div>
+                <p>
+                  This is my go-to choice for healthy meals on busy days. I
+                  appreciate how they balance flavor with nutrition, making it
+                  easy to stick to my healthy eating goals while still enjoying
+                  delicious food.
+                </p>
+                <div class="customer__card__footer">
+                  <img src="assets/customer-1.jpg" alt="customer" />
+                  <div>
+                    <h4>Sarah Johnson</h4>
+                    <h5>Nutritionist</h5>
+                    <div class="customer__rating">
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-half-fill"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="customer__card">
+                <div class="customer__card__header">
+                  <div>Verified Purchase</div>
+                  <span>15 Nov 2024</span>
+                </div>
+                <p>
+                  I love the convenience and variety that they offers. The
+                  real-time order tracking is such a thoughtful feature—it
+                  ensures I never have to wonder about my meal's status.
+                </p>
+                <div class="customer__card__footer">
+                  <img src="assets/customer-2.jpg" alt="customer" />
+                  <div>
+                    <h4>Rajesh Patel</h4>
+                    <h5>Software Engineer</h5>
+                    <div class="customer__rating">
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-fill"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="customer__card">
+                <div class="customer__card__header">
+                  <div>Verified Purchase</div>
+                  <span>23 Nov 2024</span>
+                </div>
+                <p>
+                  The dishes are not only flavorful but also packed with
+                  nutrients, which is essential for my active lifestyle. It's a
+                  fantastic option for anyone who values healthy eating!
+                </p>
+                <div class="customer__card__footer">
+                  <img src="assets/customer-3.jpg" alt="customer" />
+                  <div>
+                    <h4>Emily Brown</h4>
+                    <h5>Fitness Trainer</h5>
+                    <div class="customer__rating">
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-half-fill"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="customer__swiper__controls">
+            <button class="btn swiper-prev">
+              <i class="ri-arrow-left-line"></i>
+            </button>
+            <button class="btn swiper-next">
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <a href="#" class="footer__logo">
+            <img src="assets/logo-dark.png" alt="logo" />
+          </a>
+          <p>
+            Experience fast delivery, easy pick-up, and a menu crafted to
+            satisfy every craving. Eat healthy, stay happy!
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>Product</h4>
+          <ul class="footer__links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Releases</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Social</h4>
+          <ul class="footer__links">
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Youtube</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Legal</h4>
+          <ul class="footer__links">
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Cookies</a></li>
+            <li><a href="#">Licenses</a></li>
+            <li><a href="#">Settings</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
